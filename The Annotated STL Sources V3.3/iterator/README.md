@@ -4,7 +4,7 @@
 
 ## 迭代器(iterator) 是一种 smart pointer
 
-迭代器是一种行为类似指针的对象，而指针的各种行为中最常见的用途是 dereference 和 member access。迭代器最重要的就是对 `operator*` 和 `operator->`进行重载工作。
+迭代器是一种行为类似指针的对象，而指针的各种行为中最常见的用途是 dereference （间接引用）和 member access（成员访问）。迭代器最重要的就是对 `operator*` 和 `operator->`进行重载工作。
 
 auto_ptr：用来包装原生指针(native pointer)的对象，在头文件 <memory> 中定义。
 
